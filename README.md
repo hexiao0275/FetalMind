@@ -43,7 +43,10 @@
 A fetal vision–language foundation model, **FetalMind**, pretrained on multi-center fetal ultrasound data, integrating structured clinical knowledge and reinforcement learning for report generation and diagnostic reasoning across diverse gestational stages.
 
 <p align="center">
-    <img src="assets/featalmind_all.png" alt="Image" width="500">
+    <img src="assets/fetalmind_all.png" alt="Image" width="500">
+</p>
+<p align="center">
+    <img src="assets/performance.png" alt="Image" width="500">
 </p>
 
 
