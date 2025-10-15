@@ -2,11 +2,11 @@
     <img src="assets/EarthSy.png" alt="Image" width="120">
 </p>
 <div align="center">
-<h1 align="center"> EarthSynth: Generating Informative Earth Observation with Diffusion Models</h1>
+<h1 align="center"> FetalMind: Generating Informative Earth Observation with Diffusion Models</h1>
 
-<h4 align="center"><em>Jiancheng Pan*,     Shiye Lei*,     Yuqian Fu✉,    Jiahao Li,    Yanxing Liu</em></h4>
+<h4 align="center"><em>Xiao He, Huangxuan Zhao✉, Guojia Wan, Yanxing Liu </em></h4>
 
-<h4 align="center"><em>Xiao He,   Yuze Sun,  Long Peng,   Xiaomeng Huang✉ ,     Bo Zhao✉ </em></h4> 
+<h4 align="center"><em>Juhua Liu, Yongchao Xu, Yong Luo, Dacheng Tao, Bo Du✉</em></h4> 
 <p align="center">
     <img src="assets/inst.png" alt="Image" width="400">
 </p>
@@ -32,62 +32,15 @@
   <a href="#statement">Statement</a>
 </p>
 
-## Examples
-
-<div align="center">
-<p>A satellite image of <span style="color:inherit;">road</span>.</p>
-  <img src="./assets/gifs/DG_629683_0_road_1.gif" width="10%">
-  <img src="./assets/gifs/DG_629683_0_road_2.gif" width="10%">
-  <img src="./assets/gifs/DG_629683_0_road_3.gif" width="10%">
-  <img src="./assets/gifs/DG_629683_0_road_4.gif" width="10%">
-  <img src="./assets/gifs/DG_629683_0_road_5.gif" width="10%">
-</div>
-<div align="center">
-<p>A satellite image of <span style="color:inherit;">small vehicle</span>.</p>
-  <img src="./assets/gifs/FAST_train_5093_0001_0_small_vehicle_1.gif" width="10%">
-  <img src="./assets/gifs/FAST_train_5093_0001_0_small_vehicle_2.gif" width="10%">
-  <img src="./assets/gifs/FAST_train_5093_0001_0_small_vehicle_3.gif" width="10%">
-  <img src="./assets/gifs/FAST_train_5093_0001_0_small_vehicle_4.gif" width="10%">
-  <img src="./assets/gifs/FAST_train_5093_0001_0_small_vehicle_5.gif" width="10%">
-</div>
-<div align="center">
-<p>A satellite image of <span style="color:inherit;">tree</span>. (Flood)</p>
-  <img src="./assets/gifs/OEMxBD_coxsbazar_56_2_tree_1.gif" width="10%">
-  <img src="./assets/gifs/OEMxBD_coxsbazar_56_2_tree_2.gif" width="10%">
-  <img src="./assets/gifs/OEMxBD_coxsbazar_56_2_tree_3.gif" width="10%">
-  <img src="./assets/gifs/OEMxBD_coxsbazar_56_2_tree_4.gif" width="10%">
-  <img src="./assets/gifs/OEMxBD_coxsbazar_56_2_tree_5.gif" width="10%">
-</div>
-<div align="center">
-<p>A satellite image of <span style="color:inherit;">water</span>.</p>
-  <img src="./assets/gifs/LD_300_0_water_1.gif" width="10%">
-  <img src="./assets/gifs/LD_300_0_water_2.gif" width="10%">
-  <img src="./assets/gifs/LD_300_0_water_3.gif" width="10%">
-  <img src="./assets/gifs/LD_300_0_water_4.gif" width="10%">
-  <img src="./assets/gifs/LD_300_0_water_5.gif" width="10%">
-</div>
-<div align="center">
-<p>A satellite image of <span style="color:inherit;">baseball diamond, vehicle</span>.</p>
-  <img src="./assets/gifs/SIOR_07349_0_1.gif" width="10%">
-  <img src="./assets/gifs/SIOR_07349_0_2.gif" width="10%">
-  <img src="./assets/gifs/SIOR_07349_0_3.gif" width="10%">
-  <img src="./assets/gifs/SIOR_07349_0_4.gif" width="10%">
-  <img src="./assets/gifs/SIOR_07349_0_5.gif" width="10%">
-</div>
-
-## TODO
-
-- [ ] Release EarthSynth Models to 🤗 HuggingFace
-- [x] Release EarthSynth-180K Dataset to 🤗 HuggingFace
 
 ## News
-- [2025/8/7] EarthSynth-180K dataset is uploaded to 🤗 [HuggingFace](https://huggingface.co/datasets/jaychempan/EarthSynth-180K).
-- [2025/5/20] Our paper of "EarthSynth: Generating Informative Earth Observation with Diffusion Models" is up on [arXiv](https://arxiv.org/abs/2505.12108).
+- [2025/10/16] The paper and project report have been released.
 
+- [2025/10/15] We are actively working to obtain the necessary approvals for dataset release and plan to make a partially de-identified version publicly available after the paper is accepted.
 
 ## Abstract
 
-Remote sensing image (RSI) interpretation typically faces challenges due to the scarcity of labeled data, which limits the performance of RSI interpretation tasks. To tackle this challenge, we propose **EarthSynth**, a diffusion-based generative foundation model that enables synthesizing multi-category, cross-satellite labeled Earth observation for downstream RSI interpretation tasks. To the best of our knowledge, EarthSynth is the first to explore multi-task generation for remote sensing, tackling the challenge of limited generalization in task-oriented synthesis for RSI interpretation. EarthSynth, trained on the EarthSynth-180K dataset, employs the Counterfactual Composition training strategy with a three-dimensional batch-sample selection mechanism to improve training data diversity and enhance category control. Furthermore, a rule-based method of R-Filter is proposed to filter more informative synthetic data for downstream tasks. We evaluate our EarthSynth on scene classification, object detection, and semantic segmentation in open-world scenarios. There are significant improvements in open-vocabulary understanding tasks, offering a practical solution for advancing RSI interpretation.
+A fetal vision–language foundation model, **FetalMind**, pretrained on multi-center fetal ultrasound data, integrating structured clinical knowledge and reinforcement learning for report generation and diagnostic reasoning across diverse gestational stages.
 
 <p align="center">
     <img src="assets/EarthSynth-FM.png" alt="Image" width="500">
