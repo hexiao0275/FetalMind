@@ -8,7 +8,7 @@
 
 <h4 align="center"><em>Juhua Liu, Yongchao Xu, Yong Luo, Dacheng Tao, Bo Du✉</em></h4> 
 <p align="center">
-    <img src="assets/inst.png" alt="Image" width="400">
+    <img src="assets/inst.png" alt="Image" width="600">
 </p>
 
 \* *Equal Contribution* &nbsp; &nbsp; Corresponding Author ✉
