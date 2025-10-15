@@ -1,8 +1,8 @@
 <p align="center">
-    <img src="assets/EarthSy.png" alt="Image" width="120">
+    <img src="assets/fetalmind.png" alt="Image" width="200">
 </p>
 <div align="center">
-<h1 align="center"> FetalMind: Generating Informative Earth Observation with Diffusion Models</h1>
+<h1 align="center"> FetalMind: Epistemic-aware Vision–Language Foundation Model for Fetal Ultrasound Interpretation</h1>
 
 <h4 align="center"><em>Xiao He, Huangxuan Zhao✉, Guojia Wan, Yanxing Liu </em></h4>
 
@@ -43,7 +43,7 @@
 A fetal vision–language foundation model, **FetalMind**, pretrained on multi-center fetal ultrasound data, integrating structured clinical knowledge and reinforcement learning for report generation and diagnostic reasoning across diverse gestational stages.
 
 <p align="center">
-    <img src="assets/EarthSynth-FM.png" alt="Image" width="500">
+    <img src="assets/featalmind_all.png" alt="Image" width="500">
 </p>
 
 
