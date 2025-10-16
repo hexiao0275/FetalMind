@@ -16,7 +16,7 @@
 </div>
 
 <p align="center">
-    <a href="https://arxiv.org/abs/2510.12953"><img src="https://img.shields.io/badge/Arxiv-2505.12108-b31b1b.svg?logo=arXiv"></a>
+    <a href="https://arxiv.org/abs/2510.12953"><img src="https://img.shields.io/badge/Arxiv-2510.12953-b31b1b.svg?logo=arXiv"></a>
     <!-- <a href="http://arxiv.org/abs/2408.09110"><img src="https://img.shields.io/badge/AAAI'25-Paper-blue"></a> -->
     <a href="https://hexiao0275.github.io/FetalMind/"><img src="https://img.shields.io/badge/FetalMind-Project_Page-<color>"></a>
     <a href="https://huggingface.co/datasets/jaychempan/EarthSynth-180K"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-HuggingFace-yellow?style=flat&logo=hug"></a>
