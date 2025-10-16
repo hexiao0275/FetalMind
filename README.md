@@ -55,3 +55,17 @@ A fetal vision–language foundation model, **FetalMind**, pretrained on multi-c
 
 ### Citation
 
+
+If you are interested in the following work or want to use our dataset, please cite the following paper.
+
+```
+      @misc{he2025fetalmind,
+        title={Epistemic-aware Vision-Language Foundation Model for Fetal Ultrasound Interpretation}, 
+        author={Xiao He, Huangxuan Zhao, Guojia Wan, Wei Zhou, Yanxing Liu, Juhua Liu, Yongchao Xu, Yong Luo, Dacheng Tao, and Bo Du},
+        year={2025},
+        eprint={2505.12953},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV},
+        url={https://arxiv.org/abs/2510.12953}, 
+        } 
+```
