@@ -35,7 +35,7 @@
 
 ## News
 
-- [2025/11/20] We are enhancing the security of the model, which will be uploaded to Hugging Face at this time.
+- [2025/12/20] We are enhancing the security of the model, which will be uploaded to Hugging Face at this time.
 
 - [2025/10/16] The paper and project report have been released.
 
