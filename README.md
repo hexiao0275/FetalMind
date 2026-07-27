@@ -1,14 +1,15 @@
 <p align="center">
-    <img src="assets/fetalmind.png" alt="Image" width="200">
+    <img src="assets/fetalmind.png" alt="Image" width="100">
 </p>
 <div align="center">
-<h1 align="center"> FetalMind: Epistemic-aware Vision–Language Foundation Model for Fetal Ultrasound Interpretation</h1>
+<h1 align="center"> KDD'26 Oral | FetalMind: Epistemic-aware Vision–Language Foundation Model for Fetal Ultrasound Interpretation</h1>
 
-<h4 align="center"><em>Xiao He, Huangxuan Zhao✉, Guojia Wan, Yanxing Liu </em></h4>
 
-<h4 align="center"><em>Juhua Liu, Yongchao Xu, Yong Luo, Dacheng Tao, Bo Du✉</em></h4> 
+<h4 align="center"><em>Xiao He, Huangxuan Zhao✉, Guojia Wan, Jiancheng Pan, Yanxing Liu </em></h4>
+
+<h4 align="center"><em> Xin Zou, Yong Luo, Yongchao Xu, Juhua Liu, Wei Zhou, Dacheng Tao, Bo Du✉</em></h4>
 <p align="center">
-    <img src="assets/inst.png" alt="Image" width="600">
+    <img src="assets/inst.png" alt="Image" width="300">
 </p>
 
 \* *Equal Contribution* &nbsp; &nbsp; Corresponding Author ✉
@@ -19,27 +20,38 @@
     <a href="https://arxiv.org/abs/2510.12953"><img src="https://img.shields.io/badge/Arxiv-2510.12953-b31b1b.svg?logo=arXiv"></a>
     <!-- <a href="http://arxiv.org/abs/2408.09110"><img src="https://img.shields.io/badge/AAAI'25-Paper-blue"></a> -->
     <a href="https://hexiao0275.github.io/FetalMind/"><img src="https://img.shields.io/badge/FetalMind-Project_Page-<color>"></a>
-    <a href="https://huggingface.co/datasets/jaychempan/EarthSynth-180K"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-HuggingFace-yellow?style=flat&logo=hug"></a>
-    <a href="https://huggingface.co/jaychempan/EarthSynth"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Model-HuggingFace-yellow?style=flat&logo=hug"></a>
-    <a href="https://github.com/jaychempan/EarthSynth/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-orange"></a>
+    <a href="https://huggingface.co/natureteam/DeepFetal"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Model-HuggingFace-yellow?style=flat&logo=hug"></a>
+    <a href="https://github.com/hexiao0275/FetalMind/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-orange"></a>
 </p>
 
 <p align="center">
   <a href="#news">News</a> |
+  <a href="#open-source">Open Source</a> |
   <a href="#abstract">Abstract</a> |
-  <a href="#dataset">Dataset</a> |
-  <a href="#model">Model</a> |
   <a href="#statement">Statement</a>
 </p>
 
 
 ## News
+- [2026/05/17] Our FetalMind is accepted by KDD 2026 (Oral, CCF-A).  Congrats to our team!
+
+- [2025/12/20] We are enhancing the security of the model, which will be uploaded to Hugging Face at this time.
 
 - [2025/12/20] We are enhancing the security of the model, which will be uploaded to Hugging Face at this time.
 
 - [2025/10/16] The paper and project report have been released.
 
 - [2025/10/15] We are actively working to obtain the necessary approvals for dataset release and plan to make a partially de-identified version publicly available after the paper is accepted.
+
+## Open Source
+
+The implementation of **FetalMind**, our deconfounded multimodal AI system for fetal ultrasound interpretation, is available on GitHub.
+
+<p align="center">
+    <a href="https://github.com/hexiao0275/DeepFetal">
+        <img src="https://img.shields.io/badge/Open_Source-DeepFetal-238636?style=for-the-badge&logo=github&logoColor=white" alt="DeepFetal Open Source">
+    </a>
+</p>
 
 ## Abstract
 
@@ -52,6 +64,13 @@ A fetal vision–language foundation model, **FetalMind**, pretrained on multi-c
     <img src="assets/performance.png" alt="Image" width="800">
 </p>
 
+## Statement
+
+### Acknowledgement
+
+Sincerely thank [Jiancheng Pan](https://jianchengpan.space/) and [Yanxing Liu](https://yanxingliu.github.io/) for their valuable contributions and support to this project.
+
+
 
 ### Citation
 
@@ -61,7 +80,7 @@ If you are interested in the following work or want to use our dataset, please c
 ```
       @misc{he2025fetalmind,
         title={Epistemic-aware Vision-Language Foundation Model for Fetal Ultrasound Interpretation}, 
-        author={Xiao He, Huangxuan Zhao, Guojia Wan, Wei Zhou, Yanxing Liu, Juhua Liu, Yongchao Xu, Yong Luo, Dacheng Tao, and Bo Du},
+        author={Xiao He, Huangxuan Zhao, Guojia Wan, Jiancheng Pan, Yanxing Liu, Xin Zou, Yong Luo, Yongchao Xu, Juhua Liu, Wei Zhou, Dacheng Tao, Bo Du},
         year={2025},
         eprint={2505.12953},
         archivePrefix={arXiv},
@@ -69,3 +88,4 @@ If you are interested in the following work or want to use our dataset, please c
         url={https://arxiv.org/abs/2510.12953}, 
         } 
 ```
+
