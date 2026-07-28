@@ -5,14 +5,20 @@
 <h1 align="center"> KDD'26 Oral | FetalMind: Epistemic-aware Vision–Language Foundation Model for Fetal Ultrasound Interpretation</h1>
 
 
-<h4 align="center"><em>Xiao He, Huangxuan Zhao✉, Guojia Wan, Jiancheng Pan, Yanxing Liu </em></h4>
+<h4 align="center"><em>Xiao He<sup>*,1</sup>, Huangxuan Zhao<sup>*,†,1</sup>, Guojia Wan<sup>1</sup>, Jiancheng Pan<sup>2</sup>, Yanxing Liu<sup>3</sup></em></h4>
 
-<h4 align="center"><em> Xin Zou, Yong Luo, Yongchao Xu, Juhua Liu, Wei Zhou, Dacheng Tao, Bo Du✉</em></h4>
+<h4 align="center"><em>Xin Zou<sup>4</sup>, Yong Luo<sup>5</sup>, Yongchao Xu<sup>5</sup>, Juhua Liu<sup>1</sup>, Wei Zhou<sup>6</sup>, Dacheng Tao<sup>7</sup>, Bo Du<sup>†,1</sup></em></h4>
 <p align="center">
-    <img src="assets/inst.png" alt="Image" width="300">
+    <sup>1</sup> Wuhan University;&nbsp;
+    <sup>2</sup> Tsinghua University;&nbsp;
+    <sup>3</sup> University of the Chinese Academy of Sciences;<br>
+    <sup>4</sup> HKUST (Guangzhou);&nbsp;
+    <sup>5</sup> Renmin Hospital of Wuhan University;&nbsp;
+    <sup>6</sup> Wuhan Supercomputing Center;&nbsp;
+    <sup>7</sup> Nanyang Technological University
 </p>
 
-\* *Equal Contribution* &nbsp; &nbsp; Corresponding Author ✉
+<sup>*</sup> *Equal contribution* &nbsp; &nbsp; <sup>†</sup> *Corresponding author*
 
 </div>
 
@@ -88,4 +94,3 @@ If you are interested in the following work or want to use our dataset, please c
         url={https://arxiv.org/abs/2510.12953}, 
         } 
 ```
-
