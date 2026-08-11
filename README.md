@@ -39,6 +39,8 @@
 
 
 ## News
+- [2026/07] Our FetalMind won the Best Paper Award 🏆 (AI4Science Track).
+
 - [2026/05/17] Our FetalMind is accepted by KDD 2026 (Oral, CCF-A).  Congrats to our team!
 
 - [2025/12/20] We are enhancing the security of the model, which will be uploaded to Hugging Face at this time.
