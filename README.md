@@ -2,7 +2,7 @@
     <img src="assets/fetalmind.png" alt="Image" width="100">
 </p>
 <div align="center">
-<h1 align="center"> KDD'26 Oral | FetalMind: Epistemic-aware Vision–Language Foundation Model for Fetal Ultrasound Interpretation</h1>
+<h1 align="center"> KDD'26 Best Paper (AI4SCI Track) | FetalMind: Epistemic-aware Vision–Language Foundation Model for Fetal Ultrasound Interpretation</h1>
 
 
 <h4 align="center"><em>Xiao He<sup>*,1</sup>, Huangxuan Zhao<sup>*,†,1</sup>, Guojia Wan<sup>1</sup>, Jiancheng Pan<sup>2</sup>, Yanxing Liu<sup>3</sup></em></h4>
